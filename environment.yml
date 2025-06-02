@@ -1,0 +1,26 @@
+name: rag-env
+channels:
+  - conda-forge
+  - defaults
+  - nvidia   # For CUDA-enabled PyTorch
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - pyyaml
+  - sqlalchemy
+  - scikit-learn
+  - tqdm
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - pip:
+      - langchain
+      - langchain-community
+      - chromadb
+      - sentence-transformers
+      - pypdf
+      - streamlit
+      - ollama
