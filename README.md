@@ -26,7 +26,7 @@ This repository demonstrates a **Retrieval-Augmented Generation (RAG) chatbot** 
 ### 1. Clone the Repository
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/ArisKaralis/ResearchPaperRAG
 cd RAG
 ```
 
